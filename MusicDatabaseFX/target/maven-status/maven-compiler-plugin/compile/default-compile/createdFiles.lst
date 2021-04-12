@@ -1,0 +1,16 @@
+pl\polsl\lab\musicdatabasefx\wojciech\francke\model\Artist.class
+pl\polsl\lab\musicdatabasefx\TracksController.class
+pl\polsl\lab\musicdatabasefx\App.class
+pl\polsl\lab\musicdatabasefx\AddTrackController.class
+pl\polsl\lab\musicdatabasefx\wojciech\francke\model\AlbumException.class
+pl\polsl\lab\musicdatabasefx\AddArtistController.class
+module-info.class
+pl\polsl\lab\musicdatabasefx\EditArtistController.class
+pl\polsl\lab\musicdatabasefx\ArtistsController.class
+pl\polsl\lab\musicdatabasefx\AlbumsController.class
+pl\polsl\lab\musicdatabasefx\RateAlbumController.class
+pl\polsl\lab\musicdatabasefx\wojciech\francke\model\Album.class
+pl\polsl\lab\musicdatabasefx\AddAlbumController.class
+pl\polsl\lab\musicdatabasefx\wojciech\francke\model\Track.class
+pl\polsl\lab\musicdatabasefx\EditAlbumController.class
+pl\polsl\lab\musicdatabasefx\EditTrackController.class
