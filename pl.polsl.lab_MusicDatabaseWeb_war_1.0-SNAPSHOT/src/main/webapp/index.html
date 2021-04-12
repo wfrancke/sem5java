@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+        <h3 class="display-6">Add Artist</h3>
+        <form action="AddArtist" method="POST">
+            <p class="lead">Name:<input type=text class="form-control" size=20 name=name></p>
+            <p class="lead">Location:<input type=text class="form-control" size=20 name=location></p>
+            <input type="submit" class="btn btn-primary" value="run Form"/>
+        </form>
+        <hr>
+        <h3 class="display-6">Edit Artist</h3>
+        <form action="EditArtist">
+            <p class="lead">Id:<input type=text class="form-control" size=20 name=id></p>
+            <p class="lead">New name:<input type=text class="form-control" size=20 name=newName></p>
+            <p class="lead">New location:<input type=text class="form-control" size=20 name=newLocation></p>
+            <input type="submit" class="btn btn-primary" value="run Form" />
+        </form>
+        <hr>
+        <h3 class="display-6">Add Album</h3>
+        <form action="AddAlbum">
+            <p class="lead">Artist id:<input type="text" class="form-control" size=20 name=artistId></p>
+            <p class="lead">Title:<input type=text class="form-control" size=20 name=title></p>
+            <p class="lead">Genre:<input type=text class="form-control" size=20 name=genre></p>
+            <p class="lead">Release year:<input type=text class="form-control" size=20 name=releaseYear></p>
+            <input type="submit" class="btn btn-primary" value="run Form" />
+        </form>
+        <hr>
+        <h3 class="display-6">Edit Album</h3>
+        <form action="EditAlbum">
+            <p class="lead">Album id<input type=text class="form-control" size=20 name=album></p>
+            <p class="lead">New title:<input type=text class="form-control" size=20 name=title></p>
+            <p class="lead">New genre:<input type=text class="form-control" size=20 name=genre></p>
+            <p class="lead">New release year:<input type=text class="form-control" size=20 name=releaseYear></p>
+            <input type="submit" class="btn btn-primary" value="run Form" />
+        </form>
+        <hr>
+        <h3 class="display-6">Rate Album</h3>
+        <form action="RateAlbum">
+            <p class="lead">Album id:<input type=text class="form-control" size=20 name=album></p>
+            <p class="lead">Rating:<input type=text class="form-control" size=20 name=rating></p>
+            <input type="submit" class="btn btn-primary" value="run Form" />
+        </form>
+        <hr>
+        <h3 class="display-6">Add Track</h3>
+        <form action="AddTrack">
+            <p class="lead">Album id:<input type="text" class="form-control" size=20 name=album></p>
+            <p class="lead">Title:<input type=text class="form-control" size=20 name=title></p>
+            <p class="lead">Length(in seconds):<input type=text class="form-control" size=20 name=length></p>
+            <input type="submit" class="btn btn-primary" value="run Form" />
+        </form>
+        <hr>
+        <h3 class="display-6">View an artists discography</h3>
+        <form action="Print">
+            <p class="lead">Id: <input type=text class="form-control" size=20 name=id></p>
+            <input type="submit" class="btn btn-primary" value="run Form" />
+        </form>
+        </div>
+    </body>
+</html>

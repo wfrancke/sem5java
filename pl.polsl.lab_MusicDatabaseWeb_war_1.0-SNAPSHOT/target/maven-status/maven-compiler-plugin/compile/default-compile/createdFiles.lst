@@ -1,0 +1,12 @@
+pl\polsl\lab\musicdatabaseweb\servlet\PrintServlet.class
+pl\polsl\lab\musicdatabaseweb\servlet\AddAlbumtServlet.class
+pl\polsl\lab\musicdatabaseweb\servlet\EditAlbumServlet.class
+pl\polsl\lab\musicdatabaseweb\servlet\AddArtistServlet.class
+pl\polsl\lab\musicdatabaseweb\JAXRSConfiguration.class
+pl\polsl\lab\musicdatabaseweb\model\AlbumException.class
+pl\polsl\lab\musicdatabaseweb\model\Artist.class
+pl\polsl\lab\musicdatabaseweb\servlet\EditArtistServlet.class
+pl\polsl\lab\musicdatabaseweb\servlet\AddTrack.class
+pl\polsl\lab\musicdatabaseweb\model\Track.class
+pl\polsl\lab\musicdatabaseweb\servlet\RateAlbumServlet.class
+pl\polsl\lab\musicdatabaseweb\model\Album.class
